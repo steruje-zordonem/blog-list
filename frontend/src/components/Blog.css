@@ -1,0 +1,14 @@
+.blog {
+  padding-top: 10px;
+  padding-left: 2px;
+  border: 1.5px solid black;
+  margin-bottom: 5px;
+}
+
+.blog-btn {
+  margin-left: 2px;
+}
+
+.like-btn {
+  margin-left: 2px;
+}

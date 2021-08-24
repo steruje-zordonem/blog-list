@@ -1,0 +1,24 @@
+#Root directory
+./vscode/
+
+## Back end
+backend/.env
+backend/node_modules/
+
+## Front End
+frontend/.env
+frontend/.idea/
+frontend/vscode/
+frontend/node_modules/
+frontend/build
+frontend/.DS_Store
+frontend/*.tgz
+frontend/my-app*
+frontend/template/src/__tests__/__snapshots__/
+frontend/lerna-debug.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/changelog
+frontend/npm/
+frontend/yarn.lock
