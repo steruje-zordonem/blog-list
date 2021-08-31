@@ -7,7 +7,7 @@ const Blog = ({ blog, user, likeBlog, removeBlog }) => {
 
   if (!fullView) {
     return (
-      <div className="blog">
+      <div className="short-blog blog">
         <p>
           {blog.title} - {blog.author}
           <button
@@ -41,7 +41,7 @@ const Blog = ({ blog, user, likeBlog, removeBlog }) => {
     ) : null;
 
   return (
-    <div className="blog">
+    <div className="full-blog blog">
       <p>
         {blog.title} - {blog.author}
         <button type="button" onClick={() => setFullView(false)}>
